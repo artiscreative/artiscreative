@@ -16,15 +16,19 @@ const Hero = () => {
             <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
               <h1 className="mb-5 md:text-5xl text-3xl font-bold text-gray-900">
                 {/* We build digital solutions to help businesses scale */}
-                artis marketing, creative artists
+                창의성과 전략이 조화를 이루는 곳
               </h1>
+              <h2 className="mb-5 md:text-4xl text-3xl font-bold text-gray-900">
+                {/* We build digital solutions to help businesses scale */}
+                아티스크리에이티브
+              </h2>
               <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">
-                We are a team of highly motivated and skilled developers dedicated to delivering only the best software.
+                디지털 마케팅 | SEO | CONTENTS | KOL | ADVERTORIAL | DA | OOH
               </div>
               <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                 <Link
                   to="/contact"
-                  className="text-white bg-gray-900 hover:bg-darkgrey-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
+                  className="text-white bg-gray-600 hover:bg-gray-900 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
                 >
                   문의하기
                   <svg
@@ -51,7 +55,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
-              <img alt="card img" className="rounded-t float-right duration-1000 w-full" src={heroImg} />
+              <img alt="Artis logo" className="rounded-t float-right duration-1000 w-full" src="/artis_logo.svg" />
             </div>
           </div>
         </div>
