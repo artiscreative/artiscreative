@@ -9,32 +9,31 @@ const Services = () => {
     <div id="services" className="bg-gray-100 py-12">
       <section data-aos="zoom-in-down">
         <div className="my-4 py-4">
-          <h2 className="my-2 text-center text-3xl text-gray-900 uppercase font-bold">services</h2>
-
+          <h2 className="my-2 text-center text-xl sm:text-2xl md:text-3xl text-gray-900 uppercase font-bold">
+            services
+          </h2>
           <div className="flex justify-center">
             <div className="w-24 border-b-4 border-gray-900"></div>
           </div>
-          <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-gray-900">
+          <h2 className="mt-4 mx-6 sm:mx-12 text-center text-lg sm:text-xl lg:text-2xl font-semibold text-gray-900">
             우리는 고객의 성장과 성공에 깊이 헌신하고 있습니다
           </h2>
         </div>
 
-        <div className="px-12" data-aos="fade-down" data-aos-delay="600">
+        <div className="px-4 sm:px-12" data-aos="fade-down" data-aos-delay="600">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
                 <img
                   alt="card img"
-                  className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-[400px] h-auto mx-auto w-[400px] h-auto mx-auto "
+                  className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-[400px] h-auto mx-auto"
                   src={img}
                 />
-                <h2 className="font-semibold my-8 text-2xl text-center">DIGITAL MARKETING</h2>
-                <p className="text-md font-medium">
-                  시장 조사를 통해 최적의 마케팅 전략과 디지털 마케팅을 진행합니다
+                <h2 className="font-semibold my-4 sm:my-8 text-xl sm:text-2xl text-center">DIGITAL MARKETING</h2>
+                <p className="text-sm sm:text-base md:text-md font-medium text-center">
+                  시장조사를 통해 최적의 디지털 마케팅을 진행
                   <br />
-                  데이터 분석을 통해 인사이트를 도출하고, 브랜드 성장을 리드합니다.
-                  <br />
-                  <br />
+                  데이터 분석기반 인사이트를 도출, 브랜드 성장을 리드
                 </p>
               </div>
             </div>
@@ -46,13 +45,11 @@ const Services = () => {
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-[400px] h-auto mx-auto"
                   src={img2}
                 />
-                <h2 className="font-semibold my-8 text-2xl text-center">KOL(Key Opinion Leader)</h2>
-                <p className="text-md font-medium">
-                  자체 평가 기준을 통한 검증된 KOL네트워크를 보유하고 있습니다
+                <h2 className="font-semibold my-4 sm:my-8 text-xl sm:text-2xl text-center">KOL(Key Opinion Leader)</h2>
+                <p className="text-sm sm:text-base md:text-md font-medium text-center">
+                  자체 평가 기준을 통한 검증된 KOL네트워크를 보유
                   <br />
-                  KOL/KOC들과 대형부터 중소형까지 다양한 프로젝트를 진행합니다
-                  <br />
-                  <br />
+                  KOL/KOC들과 대형부터 중소형까지 다양한 프로젝트진행
                 </p>
               </div>
             </div>
@@ -64,10 +61,10 @@ const Services = () => {
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-[400px] h-auto mx-auto"
                   src={img3}
                 />
-                <h2 className="font-semibold my-8 text-2xl text-center ">ADVERTORIAL</h2>
-                <p className="text-md font-medium">
-                  국내 주요 및 대부분의 언로사를 통한 기사광고를 진행합니다. <br />
-                  인터뷰 및 프리뷰 기사를 통해 브랜드 소개를 진행합니다.
+                <h2 className="font-semibold my-4 sm:my-8 text-xl sm:text-2xl text-center ">ADVERTORIAL</h2>
+                <p className="text-sm sm:text-base md:text-md font-medium text-center">
+                  국내 대부분의 언론사와 다수의 진행을 지속경험 <br />
+                  브랜드 인터뷰 및 프리뷰 진행
                 </p>
               </div>
             </div>
@@ -79,8 +76,8 @@ const Services = () => {
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out w-[400px] h-auto mx-auto"
                   src={img4}
                 />
-                <h2 className="font-semibold my-8 text-2xl text-center ">ADVERTISING</h2>
-                <p className="text-md font-medium">
+                <h2 className="font-semibold my-4 sm:my-8 text-xl sm:text-2xl text-center">ADVERTISING</h2>
+                <p className="text-sm sm:text-base md:text-md font-medium text-center">
                   DA(Digital Advertising) 프로젝트를 진행합니다. <br />
                   OOH 및 온라인 광고를 통해 브랜드 소개를 진행합니다.
                 </p>
@@ -109,7 +106,7 @@ const Services = () => {
                 <span className="font-black">artis</span> marketing
               </h3>
               <div>
-                <p className="my-3 text-xl text-gray-600 font-semibold">
+                <p className="my-3 text-xl text-gray-600 font-semibold ">
                   IT 기술의 홍수 속에서 마케팅의 본질을 잊지 않고 한명의 아티스트의 마음자세로 브랜드의 본질을 마주하며
                   최신의 기술을 통해 시기적절하고 시장적합한 인사이트를 도출해 브랜드 성장을 리드합니다.
                 </p>

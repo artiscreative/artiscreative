@@ -11,24 +11,24 @@ const Intro = () => {
             <img alt="card img" className="rounded-t float-right" src={img} />
           </div>
           <div
-            className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8"
+            className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-4 sm:px-8"
             data-aos="zoom-in"
             data-aos-delay="500"
           >
-            <h3 className="text-2xl  text-gray-900 font-bold">
+            <h3 className="text-xl sm:text-2xl md:text-2xl lg:text-2xl text-gray-900 font-bold">
               브랜드에 대한 창의적 해석과 <br />
               Data 기반의 전략적 마케팅으로 <br />
               브랜드 가치를 높입니다.
             </h3>
             <div>
-              <p className="my-3 text-lg text-gray-600 font-semibold">
+              <p className="my-2 md:my-3 text-base sm:text-lg text-gray-600 font-semibold">
                 국내 최고의 크리에이터들과 콘텐츠를 만들어 나가며 <br />
                 글로벌 기업들과 지속적 협업을 지속해 나가고 있습니다.
               </p>
             </div>
 
             <div>
-              <p className="my-3 text-lg text-gray-600 font-semibold">
+              <p className="my-2 md:my-3 text-base sm:text-lg text-gray-600 font-semibold">
                 카테고리별 전문가의 시각으로 브랜드 인사이트를 고민하며 <br />
                 IT최신의 기술을 사용하되 마케팅 본질을 놓치지 않습니다 <br />
                 마케터들과 함께 데이터를 분석하고 전략을 수립합니다.
@@ -36,11 +36,11 @@ const Intro = () => {
             </div>
             <Link
               to="/contact"
-              className="text-white bg-gray-900 hover:bg-gray-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group"
+              className="text-white bg-gray-900 hover:bg-gray-800 inline-flex items-center justify-center w-full px-4 py-2 sm:px-6 my-2 md:my-4 text-base sm:text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group"
             >
-              Contact us
+              문의하기
               <svg
-                className="w-4 h-4 ml-1 group-hover: translate-x-2"
+                className="w-3 h-3 sm:w-4 sm:h-4 ml-1 group-hover:translate-x-2"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"

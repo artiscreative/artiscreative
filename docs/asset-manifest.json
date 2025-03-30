@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9cdb1769.css",
+    "main.js": "/static/js/main.2fe02d19.js",
+    "static/media/Web-developer.svg": "/static/media/Web-developer.53e0b859020487cd16f52048ed75f55f.svg",
+    "static/media/web-dev.svg": "/static/media/web-dev.fd61237124f5b922e412437caf61ea58.svg",
+    "static/media/hosting.svg": "/static/media/hosting.596e7bd1489ff575c54cf0d2bcec477e.svg",
+    "static/media/kws.png": "/static/media/kws.877da8110793af2c3d27.png",
+    "static/media/web.svg": "/static/media/web.94327914010666ea63220af46871d5e7.svg",
+    "static/media/consultation.svg": "/static/media/consultation.d471b63fae6db178f1b440f1cac69ac6.svg",
+    "static/media/footer.svg": "/static/media/footer.70b54bbe52a797ce69c1.svg",
+    "static/media/app.svg": "/static/media/app.bd50a43ca6c7fa16bdf38b084e5d0236.svg",
+    "index.html": "/index.html",
+    "static/media/hero-bg.svg": "/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
+    "main.9cdb1769.css.map": "/static/css/main.9cdb1769.css.map",
+    "main.2fe02d19.js.map": "/static/js/main.2fe02d19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cdb1769.css",
+    "static/js/main.2fe02d19.js"
+  ]
+}
